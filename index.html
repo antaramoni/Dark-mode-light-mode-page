@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Light Dark Mode</title>
+    <title>Dark Light Mode</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link
       rel="stylesheet"
@@ -12,6 +12,88 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Dark mode switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text"> Light Mode</span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <!-- Navigations -->
+    <nav id="nav">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Custom Title Here</h1>
+        <h2>Welcome to the Website!</h2>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1>Undraw Illustrations</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Camping</h2>
+          <img src="img/undraw_camping_light.svg" alt="" id="image1" />
+        </div>
+        <div class="image-container">
+          <h2>Social Interaction</h2>
+          <img
+            src="img/undraw_social_interaction_light.svg"
+            alt=""
+            id="image2"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Imagination</h2>
+          <img src="img/undraw_Imagination_light.svg" alt="" id="image3" />
+        </div>
+        <div class="image-container">
+          <h2>Profile data</h2>
+          <img src="img/undraw_Profile_data_light.svg" alt="" id="image4" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Primary</button>
+        <button class="secondary">Secondary</button>
+        <button class="primary" disabled>Disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline" disabled>Disabled</button>
+      </div>
+      <div class="text-box" id="text-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+          inventore sapiente consequatur doloribus rem illo fugiat, aspernatur,
+          tenetur nemo fugit repellendus facilis iste aliquam aut cumque ea
+          magnam rerum repellat!
+        </p>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact</h1>
+      <div class="social-icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </section>
     <!-- Script -->
     <script src="script.js"></script>
   </body>
